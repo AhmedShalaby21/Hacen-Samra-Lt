@@ -1,9 +1,18 @@
 @font-face {
   font-family: "Hacen Samra Lt";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   src: url("Hacen Samra Lt.ttf") format("truetype");
-  font-display: swap; /* أفضل من auto */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hacen Samra Lt";
+  font-style: normal;
+  font-weight: 700;
+  src: url("Hacen Samra Lt.ttf") format("truetype");
+  /* لو عايز تحصر اللاتيني + العربي مع بعض */
+  unicode-range: U+0000-00FF, U+0600-06FF;
 }
 
 body {
@@ -11,4 +20,5 @@ body {
   text-align: center;
 }
 
-
+h1 { font-weight: 700; }
+h2 { font-weight: 400; }
