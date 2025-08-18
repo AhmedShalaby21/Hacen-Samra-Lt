@@ -9,3 +9,7 @@
                    U+FB50-FDFF,  /* Arabic Presentation Forms-A */
                    U+FE80-FEFF;  /* Arabic Presentation Forms-B */
 }
+
+body {
+    font-family: 'HacenSamra', Arial, sans-serif;
+}
